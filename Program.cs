@@ -4,13 +4,13 @@
 
 public struct StructTest
 {
-    // TODO: Uncommenting this makes Assembly.ExportedTypes throw
+    // TODO: Uncommenting this makes Assembly.ExportedTypes throw `System.TypeLoadException: Could not load type 'StructTest' from assembly...`
     public static readonly StructTest? ReadOnlyField = null;
     
-    // TODO: Uncommenting this makes Assembly.ExportedTypes throw
+    // TODO: Uncommenting this makes Assembly.ExportedTypes throw `System.TypeLoadException: Could not load type 'StructTest' from assembly...`
     // public static StructTest? Field = new StructTest();
     
-    // TODO: Uncommenting this makes Assembly.ExportedTypes throw
+    // TODO: Uncommenting this makes Assembly.ExportedTypes throw `System.TypeLoadException: Could not load type 'StructTest' from assembly...`
     // public static StructTest? Property { get; set; } = null;
 }
 
